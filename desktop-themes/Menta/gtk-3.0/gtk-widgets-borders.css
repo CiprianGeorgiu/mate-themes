@@ -96,7 +96,8 @@ toolbar.inline-toolbar.vertical button {
 
 /* focused button borders */
 button.default,
-button:focus {
+button:focus,
+toolbar.inline-toolbar.horizontal button.text-button:focus {
 	border-image: url("borders/button-focus.png") 3 4 4 4 / 3px 4px 4px 4px stretch;
 	border-radius: 4px;
 	border-width: 2px;
